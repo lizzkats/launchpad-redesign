@@ -1,0 +1,17 @@
+{
+  "name": "launchpad-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --w scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "node-sass": "^4.9.2",
+    "normalize.css": "^8.0.0"
+  }
+}
