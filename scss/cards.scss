@@ -1,0 +1,23 @@
+.card-container {
+  background-color: $bluegray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: $slate;
+  margin: 1rem;
+
+  @include minWidth($lg){
+    flex: 1 0 25%;
+  }
+}
+
+.card__button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: $meltBlue;
+  color: $white;
+  padding: 15px;
+}

@@ -1,0 +1,14 @@
+@mixin minWidth($size){
+  @media screen and (min-width : $size) {
+    @content;
+  }
+}
+
+@mixin inlineList {
+  list-style-type: none;
+  @include minWidth($lg){
+    li {
+      display: inline-block;
+    }
+  }
+}

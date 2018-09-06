@@ -296,3 +296,67 @@ template {
  */
 [hidden] {
   display: none; }
+
+html, body {
+  font-size: 12px; }
+  @media screen and (min-width: 768px) {
+    html, body {
+      font-size: 14px; } }
+  @media screen and (min-width: 992px) {
+    html, body {
+      font-size: 16px; } }
+  html *, body * {
+    overflow: auto; }
+
+p {
+  font-size: 1rem; }
+
+nav ul {
+  color: #FFFFFF;
+  font-size: 20px; }
+
+.selected {
+  color: blue; }
+
+header {
+  overflow: auto; }
+
+.navbar {
+  background-color: #EE2A7B; }
+
+.main-nav {
+  list-style-type: none; }
+  @media screen and (min-width: 992px) {
+    .main-nav li {
+      display: inline-block; } }
+  @media screen and (min-width: 992px) {
+    .main-nav {
+      text-align: center; } }
+
+.nav-item {
+  padding: 1rem; }
+
+.section-title {
+  background-color: #263340;
+  text-align: center;
+  color: white; }
+
+.card-container {
+  background-color: #263340;
+  display: flex;
+  flex-wrap: wrap; }
+
+.card {
+  background-color: #EDF4FF;
+  margin: 1rem; }
+  @media screen and (min-width: 992px) {
+    .card {
+      flex: 1 0 25%; } }
+
+.card__button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: #00b2e2;
+  color: #FFFFFF;
+  padding: 15px; }

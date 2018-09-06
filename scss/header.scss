@@ -1,0 +1,17 @@
+header {
+  overflow: auto;
+}
+.navbar {
+  background-color: $magenta;
+}
+
+.main-nav{
+    @include inlineList;
+    @include minWidth($lg){
+      text-align: center;
+    }
+}
+
+.nav-item{
+  padding: 1rem;
+}
